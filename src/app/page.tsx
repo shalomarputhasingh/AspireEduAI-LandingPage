@@ -4,7 +4,6 @@ import { HeroVisual } from "@/components/sections/HeroVisual";
 import { Consolidation } from "@/components/sections/Consolidation";
 import { Problem } from "@/components/sections/Problem";
 import { WhyNow } from "@/components/sections/WhyNow";
-import { Founder } from "@/components/sections/Founder";
 import { Solution } from "@/components/sections/Solution";
 import { Benefits } from "@/components/sections/Benefits";
 import { InstitutionTypes } from "@/components/sections/InstitutionTypes";
@@ -24,7 +23,6 @@ export default function Home() {
       <SocialProof />
       <Problem />
       <WhyNow />
-      <Founder />
       <Solution />
       <Benefits />
       <InstitutionTypes />

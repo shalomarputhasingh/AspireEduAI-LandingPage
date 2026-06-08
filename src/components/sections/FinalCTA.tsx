@@ -5,7 +5,7 @@ import { ArrowRight, Calendar } from "lucide-react";
 
 export function FinalCTA() {
   return (
-    <section className="py-24 px-6">
+    <section className="py-24 px-6" id="cta">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}

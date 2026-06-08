@@ -50,13 +50,14 @@ export function Navbar() {
 
         {/* Desktop CTA */}
         <div className="hidden md:block">
-          <motion.button
+          <motion.a
+            href="#cta"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            className="bg-primary text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all"
+            className="inline-block bg-primary text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all"
           >
             Request Demo
-          </motion.button>
+          </motion.a>
         </div>
 
         {/* Mobile Toggle */}
@@ -88,9 +89,13 @@ export function Navbar() {
                   {link.name}
                 </a>
               ))}
-              <button className="bg-primary text-white px-6 py-3 rounded-xl text-center font-semibold mt-2">
+              <a 
+                href="#cta"
+                onClick={() => setMobileMenuOpen(false)}
+                className="bg-primary text-white px-6 py-3 rounded-xl text-center font-semibold mt-2 block"
+              >
                 Request Demo
-              </button>
+              </a>
             </div>
           </motion.div>
         )}

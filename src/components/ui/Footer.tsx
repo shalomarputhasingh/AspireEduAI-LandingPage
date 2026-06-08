@@ -32,22 +32,20 @@ export function Footer() {
           <div>
             <h4 className="font-bold text-secondary mb-6">Product</h4>
             <ul className="space-y-4">
-              {["Features", "Why AspireEdu", "Modules", "Beta Program"].map((link) => (
-                <li key={link}>
-                  <a href="#" className="text-text-muted hover:text-primary transition-colors">{link}</a>
-                </li>
-              ))}
+              <li><a href="#product" className="text-text-muted hover:text-primary transition-colors">Features</a></li>
+              <li><a href="#why" className="text-text-muted hover:text-primary transition-colors">Why AspireEdu</a></li>
+              <li><a href="#modules" className="text-text-muted hover:text-primary transition-colors">Modules</a></li>
+              <li><a href="#cta" className="text-text-muted hover:text-primary transition-colors">Beta Program</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-bold text-secondary mb-6">Support</h4>
             <ul className="space-y-4">
-              {["FAQ", "Contact Us", "Training", "Security"].map((link) => (
-                <li key={link}>
-                  <a href="#" className="text-text-muted hover:text-primary transition-colors">{link}</a>
-                </li>
-              ))}
+              <li><a href="#faq" className="text-text-muted hover:text-primary transition-colors">FAQ</a></li>
+              <li><a href="mailto:aspirecodeai@gmail.com" className="text-text-muted hover:text-primary transition-colors">Contact Us</a></li>
+              <li><a href="#modules" className="text-text-muted hover:text-primary transition-colors">Training</a></li>
+              <li><a href="#why" className="text-text-muted hover:text-primary transition-colors">Security</a></li>
             </ul>
           </div>
 

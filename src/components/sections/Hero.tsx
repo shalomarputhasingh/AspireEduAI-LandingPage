@@ -94,12 +94,12 @@ export function Hero() {
           transition={{ delay: 1.4 }}
           className="flex flex-col sm:flex-row gap-5 mb-20 w-full sm:w-auto"
         >
-          <button className="bg-primary text-white px-12 py-5 rounded-2xl font-black text-xl shadow-2xl shadow-primary/30 hover:shadow-primary/40 hover:-translate-y-1 transition-all active:scale-95">
+          <a href="#cta" className="inline-block bg-primary text-white px-12 py-5 rounded-2xl font-black text-xl shadow-2xl shadow-primary/30 hover:shadow-primary/40 hover:-translate-y-1 transition-all active:scale-95 text-center">
             Request a Demo
-          </button>
-          <button className="bg-white text-secondary border-2 border-border-custom px-12 py-5 rounded-2xl font-black text-xl hover:bg-section-bg hover:border-primary/20 transition-all active:scale-95">
+          </a>
+          <a href="#consolidation" className="inline-block bg-white text-secondary border-2 border-border-custom px-12 py-5 rounded-2xl font-black text-xl hover:bg-section-bg hover:border-primary/20 transition-all active:scale-95 text-center">
             See How It Works
-          </button>
+          </a>
         </motion.div>
 
         {/* Trust Indicators */}
